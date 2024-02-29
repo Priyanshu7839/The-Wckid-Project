@@ -1,0 +1,100 @@
+.navigation{
+position: fixed;
+top: 20px;
+left: 20px;
+bottom: 20px;
+width: 200px;
+height: 0vh;
+border-radius: 10px;
+box-sizing: initial;
+border-left: 5px solid #202020;
+background: #202020;
+transition: height 0.5s;
+overflow-x: hidden;
+overflow-y: hidden;
+z-index: 99;
+
+}
+.navigation.active{
+   height: 95vh;
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+   
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    
+}
+.navigation ul li.active{
+    
+    background: black;
+    
+}
+.navigation ul li.active a{
+    color: white;
+}
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.navigation ul li a .icon ion-icon{
+    font-size: 1.5em;
+}
+.navigation ul li a .title{
+
+    position: relative;
+    display: block;
+   padding-left: 10px ;
+    line-height: 60px;
+   white-space: nowrap;
+}
+
+.toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.toggle ion-icon{
+    position: absolute;
+    font-size: 34px;
+    display: none;
+    color: red;
+}
+
+.toggle ion-icon.open{
+    display: block;
+}

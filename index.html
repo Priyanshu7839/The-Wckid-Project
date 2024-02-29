@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCKiD</title>
+
+    <link rel="shortcut icon" href="Interlaced logo design transparent copy.png" type="png/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main_page_styling.css">
+
+    <link rel="stylesheet" href="main_page_mediaQueries.css">
+
+    <link rel="stylesheet" href="sample_pack_style.css">
+
+    <link rel="stylesheet" href="sample_packs_media_queries.css">
+
+    <link rel="stylesheet" href="scroll_slider.css">
+
+    <link rel="stylesheet" href="animated_scroll.css">
+
+    <link rel="stylesheet" href="testimonials.css">
+
+    <link rel="stylesheet" href="button.css">
+
+    <!-- <link rel="stylesheet" href="sidebar.css"> -->
+
+    <link rel="stylesheet" href="animated_scroll_antiwckid.css">
+
+    <link rel="stylesheet" href="loader.css">
+
+    <link rel="stylesheet" href="fonts.css">
+
+    <script src="https://unpkg.com/wavesurfer.js@7"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"
+        integrity="sha512-uaz5GpnQoE6t5echKlX8P52czvsIGgLPcvlzfvRubLZ1Hp8JemUDnbUiAahbVtPb+jUVrNETuXvAhDDF/N3M4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"
+        integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle red"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+    <div class="loaded">
+
+
+        <!-- ------------------------page-1----------------------------------------------------->
+
+        <div id="main-background">
+            <!-------------------------------Navigation Bar------------------------------------------->
+            <!-- <div class="navigation">
+                <ul>
+                    <li class="list active">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="home"></ion-icon>
+                            </span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="people-circle"></ion-icon>
+                            </span>
+                            <span class="title">Profile</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="mail"></ion-icon>
+                            </span>
+                            <span class="title">Artwork</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="settings"></ion-icon>
+                            </span>
+                            <span class="title">Sample Packs</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="help-circle"></ion-icon>
+                            </span>
+                            <span class="title">AntiWCKiD</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="log-out"></ion-icon>
+                            </span>
+                            <span class="title">Ask WCKiD</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <ion-icon name="menu-outline" class="open"></ion-icon>
+            </div> -->
+            <!-- ------------------------------main backgorund video----------------------------------------- -->
+            <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay loop muted
+                class="bg-video"></video>
+            <!--------------------------------Wckid-Logo------------------------------------------------------>
+            <div id="logo">
+                <img src="img/wckid_logo.png" alt="Wckid logo" class="rounded mx-auto d-block">
+            </div>
+            <!----------------------------------outline-text-------------------------------------------------->
+            <div id="outline-text">
+                <div class="outline-text-1">We’re A Joke</div>
+                <div class="outline-text-2">We’re A Joke</div>
+                <div class="outline-text-3">We’re A Joke</div>
+            </div>
+            <div class="row" id="canvas">
+                <div class="col-md-6 col-sm-12 canvas-image pb-5 pt-5">
+                    <video src="img/Canvas.mp4" class="canvas-video" autoplay loop muted></video>
+                </div>
+                <div class="col-md-6 col-sm-12 canvas-text pb-5 pt-5">
+                    <div class="text-content text-center">
+                        <p>
+                            The WCKiD project was launched in late 2020 and was the brainchild of 20-year-old producer,
+                            sound designer, composer, and songwriter Bharat Kumar. Starting at 14 and combining various
+                            EDM components, Bharat has ultimately developed WCKiD into a legitimate bass music project.
+                            Using moody ambient ambiance, haunting melodies, and hard-hitting bass drops, he is also
+                            able to express his tale in a unique way.
+
+                        </p>
+                    </div>
+                    <video src="img/JOKE_OUT_NOW.mp4" class="text-image" autoplay loop muted></video>
+                </div>
+            </div>
+            <div class="row " id="artwork">
+                <div class="col-md-6 col-sm-12 poster">
+                    <h1 class="out-now text-center">OUT NOW !</h1>
+                    <img src="img/We're_A_Joke_Artwork.png" alt="" class="artwork-image">
+                    <p>“We’re A Joke” with Jessalyn is out now! This is WCKiD’s one of the numerous steps in the newer
+                        darker more bassier field while keeping the sanity of his own older alias…
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-12 spotify-embed">
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO2BlCVO?utm_source=generator"
+                        width="100%" height="355" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+
+
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/kumar.bharat.786"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://instagram.com/wckid_"> <ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.soundcloud.com/wckid_music"><ion-icon name="logo-soundcloud"></ion-icon></a>
+                <a href="https://www.youtube.com/@askwckid"> <ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="https://music.apple.com/in/artist/wckid/1451429226"><ion-icon
+                        name="musical-notes-outline"></ion-icon></a>
+                <a href="askwckid@gmail.com"> <ion-icon name="mail-outline"></ion-icon></a>
+
+            </div>
+
+        </div>
+        <!------------background video closing div---------->
+
+
+        <div class="background">
+            <div class="wrapp">
+                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay loop muted
+                    class="bg-video"></video>
+
+
+                <section class="work">
+                    <div class="work_right">
+                        <div class="work_right_bl">
+                            <div class="work_photo">
+                                <div class="work_photo_item">
+                                    <img src="img/thinking_man_upscayl_4x_ultrasharp.png" alt="">
+                                </div>
+                                <div class="work_photo_item">
+                                    <img src="img/man_creating_aounds.jpg" alt="">
+                                </div>
+                                <div class="work_photo_item ">
+                                    <img src="img/wickedfy_image_upscayl_4x_ultrasharp.png" alt="">
+
+                                </div>
+                                <div class="work_photo_item">
+                                    <img src="img/artstorm_upscayl_16x_ultrasharp.jpg" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="work_left">
+
+
+                        <div class="work_text">
+                            <div class="work_info">
+                                <div class="work_left_bl">
+
+
+                                    <h2 class="title_scroll">Want To Elevate <span class="stroke"> Your Bass</span>
+                                        Music Game?</h2>
+
+
+                                </div>
+                            </div>
+                            <div class="work_info">
+                                <div class="work_left_bl">
+
+                                    <h2 class="title_scroll">But Lack The <span class="stroke">Right Sounds?</span>
+                                    </h2>
+
+                                </div>
+                            </div>
+                            <div class="work_info">
+                                <div class="work_left_bl">
+
+                                    <h2 class="title_scroll">Don’t Worry I Got <span class="stroke">You…</span></h2>
+
+                                </div>
+                            </div>
+                            <div class="work_info">
+                                <div class="work_left_bl d-flex flex-column align-items-end gap-5">
+
+                                    <h2 class="title_scroll">Dive Into <span class="stroke">Mutiny Vault</span>
+                                        Collection
+                                    </h2>
+
+                                    <button type="button" id="scrollButton" class="explore_button">Explore Now
+                                        <span><ion-icon name="arrow-down-outline"></ion-icon></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </section>
+            </div>
+
+        </div>
+
+
+        <!--------------------------page-1--------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-----------------------------------sliding-scroll------------------------------------------>
+        <div class="main">
+            <div id="section2" class="top">
+                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay muted
+                    loop></video>
+                <h1 class="top-h">Create your Sound</h1>
+
+            </div>
+            <div class="center-vertical">
+
+                <div class="main-horizontal">
+                    <div class="right">
+                        <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay
+                            muted loop></video>
+                        <h1 class="right-h-1">Wicked</h1>
+                        <!-- <h1 class="right-h-2"></h1> -->
+                    </div>
+                    <div class="center">
+                        <div class="main-horizontal-vertical">
+                            <div class="top-2">
+                                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4"
+                                    autoplay muted loop></video>
+                                <h1 class="top-2-h">Mutiny</h1>
+                            </div>
+                            <div class="center-2">
+
+                                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4"
+                                    autoplay loop muted class="bg-video-center-2">
+                                </video>
+
+                                <div class="scroll-slide_outlined-text">
+                                    <div class="scroll-slide_outlined-text-11 scroll-slide_outlined-text-in">Sample Pack
+                                    </div>
+                                    <div class="scroll-slide_outlined-text-1 scroll-slide_outlined-text-in">Sample Pack
+                                    </div>
+                                    <div class="scroll-slide_outlined-text-2 scroll-slide_outlined-text-in">Sample Pack
+                                    </div>
+                                    <div class="scroll-slide_outlined-text-3 scroll-slide_outlined-text-in">
+                                        <h1>Sample Pack</h1>
+                                    </div>
+                                    <div class="scroll-slide_outlined-text-3 scroll-slide_outlined-text-in">
+                                        <h3>Sample Pack</h3>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="bottom-2">
+                                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4"
+                                    autoplay muted loop></video>
+                                <h1 class="bottom-2-h">Mutiny</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay
+                            muted loop></video>
+                        <h1 class="left-h-1">wicked</h1>
+                        <!-- <h1 class="left-h-2">sound</h1> -->
+                    </div>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <h1 class="bottom-h">create your sound</h1>
+                <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay muted
+                    loop></video>
+            </div>
+        </div>
+
+        <!-----------------------------------sliding-scroll------------------------------------------>
+
+
+
+        <div id="main-background-2">
+            <!-- ------------------------------main backgorund video----------------------------------------- -->
+            <video src="img/Red Background With Screen Overlay Of Scratches Dust And Glare.mp4" autoplay loop muted
+                class="bg-video">
+            </video>
+            <!--------------------------------Wckid-Logo------------------------------------------------------>
+            <!--------------------------------Wckid-Logo------------------------------------------------------>
+            <!-- <div id="logo">
+                <img src="Interlaced logo design transparent copy.png" alt="Wckid logo"
+                    class="rounded mx-auto d-block wckid">
+            </div> -->
+
+
+            <div class="mutiny-outlined-text">
+                <h1 class="outline-1 outline stroked">Berserk Basses</h1>
+                <h1 class="outline-2 outline stroked">Berserk Basses</h1>
+                <h1 class="outline-3 outline "> Berserk Basses</h1>
+            </div>
+            <!----------------------------------outline-text-------------------------------------------------->
+
+            <div class="wckid-exclusive">
+                <h1 class="text">
+                    <span>W</span>
+                    <span>c</span>
+                    <span>k</span>
+                    <span>i</span>
+                    <span>d</span>
+                    <span class="red">e</span>
+                    <span class="red">x</span>
+                    <span class="red">c</span>
+                    <span class="red">l</span>
+                    <span class="red">u</span>
+                    <span class="red">s</span>
+                    <span class="red">i</span>
+                    <span class="red">v</span>
+                    <span class="red">e</span>
+                </h1>
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="100" height="200">
+                    <path fill="#fff"
+                        d="M17.8,-28.3C23.4,-27.5,28.7,-23.6,36.4,-18.3C44.1,-13.1,54.2,-6.6,53.9,-0.2C53.6,6.2,43,12.5,32.9,13.6C22.9,14.7,13.4,10.8,8,9.6C2.6,8.4,1.3,10,-5.1,18.9C-11.6,27.8,-23.1,43.9,-23.9,42.4C-24.8,41,-14.8,21.9,-10.6,11.9C-6.4,1.9,-8,1,-13.9,-3.4C-19.8,-7.8,-30,-15.5,-35.6,-27.8C-41.1,-40.1,-41.8,-56.9,-35.1,-57.2C-28.4,-57.4,-14.2,-41.1,-4.1,-34C6,-26.9,12.1,-29.2,17.8,-28.3Z"
+                        transform="translate(100 100)" />
+                </svg>
+                <div class="line"></div>
+            </div>
+
+
+
+
+
+            <div class="side-lines">
+                <div class="rectangle"></div>
+                <ol>
+                    <li>邪</li>
+                    <li>悪</li>
+                    <li>な</li>
+                </ol>
+                <div class="rectangle-2"></div>
+
+
+            </div>
+
+            <div id="waveformContainer" class="mutiny-hands"></div>
+
+            <div class="sample-song">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h1>Here is what you can make</h1>
+
+                    <div class="controls">
+                        <ion-icon name="play-outline" class="sample-song-playbtn"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="waves" id="sample-song-waveform"></div>
+            </div>
+
+            <div class="mutiny-para-2">
+                <h1>Dive into the deep and powerful world of bass with our latest sample pack, Mutiny Vault: Bezerk
+                    Basses. This meticulously crafted collection is a sonic journey, featuring 50 bass one shots, 10
+                    bass fills, 10 growls, 10 Reese basses, 10 glitches, and 10 subs that will elevate your music
+                    production to new heights.</h1>
+
+                <p>
+                    <li class="title">What's Inside</li>
+
+                    <li> 50 Bass One Shots: Instantly add weight and impact to your tracks with a versatile array of
+                        one-shot bass samples.</li>
+
+                    <li> 10 Bass Fills: Inject dynamic movement into your arrangements with expertly designed bass fills
+                        that
+                        seamlessly enhance transitions.</li>
+
+                    <li> 10 Growls: Unleash raw, aggressive energy with powerful growls that cut through the mix.</li>
+
+                    <li> 10 Reese Basses: Elevate your sound with classic Reese basses, adding warmth and character to
+                        your
+                        compositions.</li>
+
+                    <li> 10 Glitches: Infuse your music with glitchy textures and experimental vibes using these unique
+                        glitch samples.</li>
+
+
+                    <li> 10 Subs: Feel the rumble with deep and subsonic bass tones that will shake the foundations of
+                        your
+                        tracks..</li>
+                </p>
+
+                <p>
+                    <li class="title">Why Choose Bezerk Basses:</li>
+
+                    <li>Professionally crafted and curated by WCKiD.</li>
+
+                    <li> High-quality 24-bit WAV files for maximum audio fidelity.</li>
+
+                    <li> Perfect for genres like dubstep, drum and bass, trap, etc.</li>
+
+                    <li> Instantly usable and easily adaptable to suit your production style.</li>
+
+                    <li> Ideal for both beginners and seasoned producers looking to expand their sonic palette.</li>
+                </p>
+
+
+            </div>
+
+
+
+
+            <div class="sample-audio">
+                <h1 class="text-center mb-3">Check What's Inside</h1>
+                <div class="sample-audio-1">
+
+                    <!-- -------------------------------------------------- -->
+                    <div class="sos">
+                        <h3 class="text-center mb-5">808</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform1"></div>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------- -->
+
+                    <!-- -------------------------------------Bass Fill -->
+                    <div class="bassfills">
+                        <h3 class="text-center mb-5">Bass Fills</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform2"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform3"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform4"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform5"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform6"></div>
+                        </div>
+
+                    </div>
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- ---------------------------Bass Glitch----------------------------------- -->
+                    <div class="bassglitch">
+                        <h3 class="text-center mb-5">Bass Glitch</h3>
+
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform7"></div>
+                        </div>
+
+
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform8"></div>
+                        </div>
+                    </div>
+
+                    <!-- ----------------------------------------------------------------------- -->
+                    <!-- ----------------------------bass shots------------------------------------------- -->
+                    <div class="bassshots">
+                        <h3 class="text-center mb-5">Bass Shots</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform9"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform10"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform11"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform12"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform13"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform14"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform15"></div>
+                        </div>
+                    </div>
+                    <!-- ------------------------------------------------------- -->
+                    <!-- ------------------------------Growl------------------------- -->
+                    <div class="growls">
+                        <h3 class="text-center mb-5">Growls</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform16"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform17"></div>
+                        </div>
+
+
+                    </div>
+                    <!-- ------------------------------------------------------- -->
+                    <!-- ---------------------------Reese---------------------------- -->
+
+                    <div class="reese">
+                        <h3 class="text-center mb-5">Reese</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform18"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform19"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform20"></div>
+                        </div>
+                    </div>
+
+                    <!-- ------------------------------------------------------- -->
+                    <!-- -----------------------Sub-------------------------------- -->
+                    <div class="sub">
+                        <h3 class="text-center mb-5">Sub</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform21"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform22"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- ------------------------------------------------------- -->
+                    <!-- --------------------------Tonal Glitch----------------------------- -->
+                    <div class="tonalglitch">
+                        <h3 class="text-center mb-5">Tonal Glitch</h3>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform23"></div>
+                        </div>
+                        <div class="audio">
+                            <div class="controls">
+                                <ion-icon name="play-outline" class="playbtn"></ion-icon>
+                            </div>
+                            <div class="waves" id="waveform24"></div>
+                        </div>
+
+                    </div>
+                    <!-- ------------------------------------------------------- -->
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="btn-area">
+                <button class="buy-btn">
+                    <span class="transition"></span>
+
+                    <span class="label-1">Get It Now</span>
+                    <span class="label-2"><a href="https://wckid.gumroad.com/l/bezerkbasses?layout=profile">Buy
+                            Now</a></span>
+                </button>
+            </div>
+
+
+
+
+            <div class="testimonials">
+                <div class="testimonial_slider">
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+                    <div class="testimonial_item">
+                        <div class="d-flex justify-content-between">
+                            <img src="img/astro3.png" alt="">
+
+                            <div class="d-flex flex-column">
+                                <h1>
+                                    Name
+                                </h1>
+                                <h1>
+                                    Designation
+                                </h1>
+                            </div>
+                        </div>
+
+                        <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur id corrupti molestiae
+                            vero. Harum tenetur pariatur id provident placeat doloremque."</p>
+                    </div>
+
+                    <button id="testimonial_next">></button>
+                    <button id="testimonial_prev">
+                        < </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="background_antiwckid">
+            <div class="wrapp_antiwckid">
+
+                <section class="work_antiwckid">
+
+
+
+                    <div class="work_left_antiwckid">
+
+
+                        <div class="work_text_antiwckid">
+                            <div class="work_info_antiwckid">
+                                <div class="work_left_bl_antiwckid">
+
+                                    <h2 class="title_scroll_antiwckid">That's All For The <span
+                                            class="stroke_antiwckid">Sample Packs</span></h2>
+
+                                </div>
+                            </div>
+
+                            <div class="work_info_antiwckid">
+                                <div class="work_left_bl_antiwckid">
+
+                                    <h2 class="title_scroll_antiwckid">Stay Tuned To Get<span
+                                            class="stroke_antiwckid">Latest Updates</span></h2>
+
+                                </div>
+                            </div>
+
+                            <div class="work_info_antiwckid">
+                                <div class="work_left_bl_antiwckid">
+
+                                    <h2 class="title_scroll_antiwckid">Until Then, We have something<span
+                                            class="stroke_antiwckid">Special</span></h2>
+
+                                </div>
+                            </div>
+
+                            <div class="work_info_antiwckid">
+                                <div class="work_left_bl_antiwckid">
+
+                                    <h2 class="title_scroll_antiwckid">Checkout The <span
+                                            class="stroke_antiwckid">Ocular
+                                            Side</span></h2>
+                                    <button type="button" class="explore_button_antiwckid"><a
+                                            href="AntiWckid/index.html">Anti-Wckid</a><span><ion-icon
+                                                name="arrow-forward-outline"></ion-icon></span></button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="work_right_antiwckid">
+                        <div class="work_right_bl_antiwckid">
+                            <div class="work_photo_antiwckid">
+                                <div class="work_photo_item_antiwckid">
+                                    <img src="img/thats-all-folks(1).jpg" alt="">
+                                </div>
+                                <div class="work_photo_item_antiwckid subscribe_container">
+                                    <!-- <img src="ArtWorks/detroit.jpg" alt=""> -->
+                                    <label for="" id="subscribe_to_sample_packs">
+                                        <span>Subscribe !!!</span>
+                                        <input type="email" id="email_input_subscribe"
+                                            placeholder="Enter Your Email To subscribe">
+                                        <button type="button" id="click_to_subscribe_sample_packs">Stay Tuned</button>
+                                    </label>
+                                </div>
+                                <div class="work_photo_item_antiwckid">
+                                    <img src="img/suprise_folks.png" alt="">
+                                </div>
+                                <div class="work_photo_item_antiwckid ">
+                                    <img src="img/antiwckid.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+
+
+
+
+
+
+            </section>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+        var loader = document.querySelector(".loader");
+        loader.style.position = 'absolute';
+        document.body.style.overflow = 'hidden';
+
+        var social_media = document.querySelector(".social-media-icons");
+        social_media.style.visibility = 'hidden';
+
+        // var navbar = document.querySelector(".navigation");
+        // navbar.style.visibility = 'hidden'
+
+        // var toggle = document.querySelector(".toggle");
+        // toggle.style.visibility = 'hidden';
+
+        var loaded = document.querySelector(".loaded");
+        loaded.style.visibility = 'hidden'
+        window.addEventListener("load", () => {
+
+            setTimeout(() => {
+                loader.style.display = "none";
+                document.body.style.overflow = 'auto';
+                // navbar.style.visibility = 'visible';
+                social_media.style.visibility = 'visible'
+                // toggle.style.visibility = 'visible'
+                loaded.style.visibility = 'visible'
+            }, 2400);
+
+        })
+
+
+
+
+
+
+        // function preloadMedia(url) {
+        //     var media;
+        //     if (url.endsWith(".mp3") || url.endsWith(".ogg") || url.endsWith(".wav")) {
+        //         media = new Audio();
+        //     } else if (url.endsWith(".mp4") || url.endsWith(".webm") || url.endsWith(".ogg")) {
+        //         media = new Video();
+        //     }
+        //     media.src = url;
+        // }
+
+        // // Call the preloadMedia function with the URLs of the media files
+        // preloadMedia('Showcase Samples/WCKiD_Bezerk_808_03_D#.wav');
+        // preloadMedia('Showcase Samples/WCKiD_Bezerk_808_05_F.wav');
+        // preloadMedia('Showcase Samples/WCKiD_Bezerk_Bass_Fill_01.wav');
+        // preloadMedia('Showcase Samples/WCKiD_Bezerk_Bass_Fill_03_D#.wav');
+
+
+        document.getElementById("scrollButton").addEventListener("click", function () {
+            document.getElementById("section2").scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="js/scroll_slider.js"></script>
+
+    <script src="js/sample_packs_script.js"></script>
+
+    <script src="js/testimonials.js"></script>
+
+    <script src="js/animated_scroll.js"></script>
+
+    <script src="js/loader.js"></script>
+
+    <script src="js/sidebar.js"></script>
+
+    <script src="js/animated_scroll_antiwckid.js"></script>
+
+    <script src="js/irisgram.js"></script>
+
+</body>
+
+</html>

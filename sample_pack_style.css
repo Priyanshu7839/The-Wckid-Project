@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Noto+Sans+Linear+A&display=swap');
+
+#main-background-2 {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    overflow: hidden;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5vh;
+}
+
+#main-background-2 video.bg-video {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+
+.wckid-exclusive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0.7%;
+    top: 30%;
+    z-index: 2;
+    font-family: BebasNeue;
+}
+
+.wckid-exclusive h1.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.wckid-exclusive .line {
+    height: 35vh;
+    width: 0vw;
+    border: 2px solid white;
+    margin-top: -13vh;
+}
+
+.wckid-exclusive span.red {
+    color: red;
+}
+
+.side-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    gap: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    font-family: BebasNeue;
+}
+
+.side-lines .rectangle {
+    height: 25vh;
+    width: 1vw;
+    border: 4px solid white;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.rectangle::before {
+    content: " ";
+    position: absolute;
+    height: 10vh;
+    width: 1vw;
+    border: 4px solid red;
+    top: -80%;
+    left: -4px;
+}
+
+.rectangle::after {
+    content: " ";
+    position: absolute;
+    height: 5vh;
+    width: 1vw;
+    border: 4px solid white;
+    top: -130%;
+    left: -4px;
+}
+
+.side-lines .rectangle-2 {
+    height: 25vh;
+    width: 1vw;
+    border: 4px solid white;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.rectangle-2::before {
+    content: " ";
+    position: absolute;
+    height: 10vh;
+    width: 1vw;
+    border: 4px solid red;
+    top: 140%;
+    left: -4px;
+    z-index: 2;
+}
+
+.rectangle-2::after {
+    content: " ";
+    position: absolute;
+    height: 5vh;
+    width: 1vw;
+    border: 4px solid white;
+    top: 220%;
+    left: -4px;
+    z-index: 2;
+}
+
+.side-lines ol {
+    list-style-type: none;
+    z-index: 2;
+
+
+}
+
+
+
+.side-lines ol li::before {
+    content: '\25A0';
+    color: red;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    left: -3px;
+
+}
+
+.side-lines ol li {
+    color: red;
+}
+
+
+
+
+
+.mutiny-hands {
+    z-index: 1;
+
+
+    height: 70vh;
+    width: 70vh;
+
+    /* display: none; */
+    /* overflow: hidden; */
+}
+
+
+.sample-song {
+    width: 75%;
+    color: white;
+    z-index: 1;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid red;
+    position: relative;
+}
+
+
+.sample-song::before {
+    content: "";
+    height: 100%;
+    width: 95%;
+    border: 2px solid white;
+    position: absolute;
+    top: 3vh;
+    left: 1.7vw;
+}
+
+.sample-song h1 {
+    color: red;
+    font-family: BebasNeue;
+}
+
+.sample-song .waves {
+    width: 100%;
+}
+
+.sample-song .controls ion-icon {
+    font-size: 40px;
+    color: red;
+
+}
+
+
+
+
+
+
+
+.mutiny-outlined-text h1.outline {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    white-space: nowrap;
+    font-family: Akira;
+}
+
+.mutiny-outlined-text h1.outline-3 {
+    color: red;
+}
+
+.mutiny-outlined-text .stroked {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    height: 7vh;
+    overflow: hidden;
+    margin-bottom: -1rem;
+    color: transparent;
+
+}
+
+.mutiny-outlined-text .outline-1 {
+    height: 6vh;
+}
+
+.mutiny-outlined-text {
+    /* position: relative;
+    left: 17%; */
+    z-index: 2;
+
+}
+
+
+.mutiny-para-2 {
+    width: 70%;
+    padding: 2rem;
+    /* width: 25vw;
+    height: 10vh; */
+    /* overflow-x: scroll; */
+    /* position: relative;
+    top: -120vh;
+    left: 20%; */
+    z-index: 2;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+.mutiny-para-2 h1 {
+    color: red;
+    font-weight: 900;
+    font-family: BebasNeue;
+    font-size: 35px;
+
+}
+
+
+.mutiny-para-2 li {
+    color: white;
+    font-family: Molend;
+    font-weight: 600;
+}
+
+
+.mutiny-para-2 li.title {
+    color: red;
+    font-weight: 900;
+    font-family: BebasNeue;
+    font-size: 35px;
+}
+
+
+.buy-btn .label-1 {
+    color: red;
+}
+
+.waves {
+    width: 100%;
+}
+
+.audio {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.controls {
+    position: relative;
+    /* top: -.7vh; */
+}
+
+.controls ion-icon {
+    font-size: 25px;
+}
+
+
+.sample-audio {
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    position: relative;
+    /* bottom: 51vh;
+    left: 7vw; */
+    border: 2px solid red;
+    z-index: 2;
+    color: white;
+}
+
+.sample-audio::before {
+    content: "";
+    height: 100%;
+    width: 95%;
+    border: 2px solid white;
+    position: absolute;
+    top: 3vh;
+}
+
+.sample-audio-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sample-audio h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: BebasNeue;
+}
+
+.sos,
+.bassfills,
+.bassglitch,
+.bassshots,
+.growls,
+.reese,
+.sub,
+.tonalglitch {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: start;
+    /* background: red; */
+}
+
+
+
+.sample-audio-1 h3 {
+    color: red;
+    font-family: Molend;
+}

@@ -1,0 +1,1107 @@
+/*---------------------For the vertical sliding text animation ------------------------------*/
+
+
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.main .top {
+    height: 50vh;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 8;
+    color: white;
+}
+
+.top video,
+.bottom video,
+.right video,
+.left video,
+.bottom-2 video,
+.top-2 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main .bottom {
+    height: 50vh;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 8;
+    visibility: visible;
+    color: white;
+
+}
+
+
+.main .center-vertical {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.main .top .top-h {
+    font-size: 5rem;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute !important;
+    bottom: -14.5% !important;
+    white-space: nowrap;
+
+}
+
+.main .bottom .bottom-h {
+    font-size: 5rem;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute !important;
+    top: -12% !important;
+    white-space: nowrap;
+}
+
+.center-h {
+    margin-top: 0;
+}
+
+/*--------------------------------------------------*/
+
+/*------for the horizontal sliding effect inside the vertical sliding effect-----*/
+.main-horizontal {
+    margin-top: 0vh;
+    width: 100%;
+    height: 100vh;
+    background: red;
+    position: relative;
+    display: flex;
+}
+
+.right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 7;
+}
+
+.left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 7;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.right-h-1,
+.right-h-2 {
+    font-size: 10rem;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute !important;
+    top: 35% !important;
+    right: 15.85vw !important;
+}
+
+.left-h-1,
+.left-h-2 {
+    font-size: 10rem;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute !important;
+    left: 16vw !important;
+    top: 35% !important;
+
+}
+
+.right-h-2 {
+    top: 40vh !important;
+    right: 19vw !important;
+}
+
+.left-h-2 {
+    top: 40vh !important;
+    left: 19vw !important;
+}
+
+/*--------------------------------------*/
+
+/*----------------for sliding effect insde the horizontal----------------------*/
+
+.main-horizontal-vertical {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.main-horizontal-vertical .top-2 {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 6;
+
+}
+
+.main-horizontal-vertical .bottom-2 {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 6;
+    visibility: visible;
+}
+
+.top-2-h {
+    font-size: 10rem;
+    color: black;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+
+.bottom-2-h {
+    font-size: 10rem;
+    color: black;
+    font-family: DRuk;
+    text-transform: uppercase;
+    position: absolute;
+    top: -30%;
+    color: white;
+}
+
+.center-2 {
+    background: saddlebrown;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+video.bg-video-center-2 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/*--------------------------------------*/
+
+.scroll-slide_outlined-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    perspective: 200px;
+
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-11 {
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 5rem;
+    z-index: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    height: 7vh;
+    overflow: hidden;
+    margin-bottom: -3vh;
+    font-family: Akira;
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-1 {
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 5rem;
+    z-index: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    height: 8vh;
+    overflow: hidden;
+    margin-bottom: -3vh;
+    font-family: Akira;
+
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-2 {
+    font-weight: 900;
+    font-size: 5rem;
+    z-index: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: -2.7vh;
+    font-family: Akira;
+
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-3 {
+    height: 5vh;
+    overflow: hidden;
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-3 h1 {
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 5rem;
+    z-index: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 115%;
+    font-family: Akira;
+
+
+}
+
+.scroll-slide_outlined-text .scroll-slide_outlined-text-3 h3 {
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 5rem;
+    z-index: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 135%;
+    font-family: Akira;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .main .top .top-h {
+        font-size: 1.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -6% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 1.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -4% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        right: 7vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        left: 7vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 4rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 90% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 4rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -10% !important;
+        color: white;
+    }
+
+    .scroll-slide_outlined-text-3 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width:481px) and (max-width:500px) {
+
+    .main .top .top-h {
+        font-size: 1.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -6% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 1.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -4% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        right: 10.5600vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        left: 10.5vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 4rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 90% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 4rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -10% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:501px) and (max-width:600px) {
+
+    .main .top .top-h {
+        font-size: 2rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -8% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 2rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -4.4% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        right: 9vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 45% !important;
+        left: 9vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 5rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 90% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 5rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -10% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:700px) {
+
+    .main .top .top-h {
+        font-size: 2.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -8.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 2.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -6.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 6rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42.5% !important;
+        right: 7.5vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 6rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42.5% !important;
+        left: 8vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 6rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 85% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 6rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -15% !important;
+        color: white;
+    }
+
+}
+
+
+@media only screen and (min-width:701px) and (max-width:800px) {
+
+    .main .top .top-h {
+        font-size: 3rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -10% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 3rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -7.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 6.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42% !important;
+        right: 10vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 6.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42% !important;
+        left: 10vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 7rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 82% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 7rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -18% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:900px) {
+
+    .main .top .top-h {
+        font-size: 3rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -10% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 3rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -7.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 6.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42% !important;
+        right: 14.5vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 6.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 42% !important;
+        left: 15vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 7rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 82% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 7rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -18% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:901px) and (max-width:1000px) {
+
+    .main .top .top-h {
+        font-size: 3.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -12% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 3.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -8.1% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 7.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 41% !important;
+        right: 13vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 7.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 41% !important;
+        left: 13vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 8rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 80% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 8rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -20% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:1001px) and (max-width:1100px) {
+
+    .main .top .top-h {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -13% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -9.7% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 41% !important;
+        right: 16vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 41% !important;
+        left: 13vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 8.5rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 80% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 8.5rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -20% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:1101px) and (max-width:1200px) {
+
+    .main .top .top-h {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -13% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 4rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -9.7% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        right: 17vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        left: 17.5vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 8.5rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 78% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 8.5rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -22% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px) {
+
+    .main .top .top-h {
+        font-size: 4.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -14.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 4.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -10.7% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        right: 17vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 8rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        left: 17.5vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 8.5rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 78% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 8.5rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -22% !important;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px) {
+
+    .main .top .top-h {
+        font-size: 4.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        bottom: -14.5% !important;
+        white-space: nowrap;
+        /* color: red; */
+
+    }
+
+    .main .bottom .bottom-h {
+        font-size: 4.5rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: -10.7% !important;
+        white-space: nowrap;
+        /* color: red; */
+    }
+
+
+    .right-h-1,
+    .right-h-2 {
+        font-size: 9rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        right: 16vw !important;
+    }
+
+    .left-h-1,
+    .left-h-2 {
+        font-size: 9rem;
+        font-family: DRuk;
+        text-transform: uppercase;
+        position: absolute !important;
+        top: 39% !important;
+        left: 16vw !important;
+
+
+    }
+
+    .top-2-h {
+        font-size: 8.5rem;
+        color: white;
+        /* font-family: DRuk; */
+        /* text-transform: uppercase; */
+        position: absolute;
+        top: 78% !important;
+
+        color: white;
+    }
+
+    .bottom-2-h {
+        font-size: 8.5rem;
+        color: white;
+        font-family: DRuk;
+        /* text-transform: uppercase; */
+        /* position: absolute; */
+        top: -22% !important;
+        color: white;
+    }
+
+}

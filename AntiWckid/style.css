@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    width: 100%;
+    overscroll-behavior: none;
+    min-height: 100%;
+    
+}
+/* for the name animation container*/
+.antiwckid_animation_container{
+    height: 100vh;
+    width: 100%;
+    position: relative;  
+}
+
+
+
+/* for the sliding effects*/
+/* 
+.antiwckid_artwork_sliding_gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+.antiwckid_artwork_sliding_gallery-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    z-index: -1;
+
+    &:nth-of-type(1){background-image: url('../img/368196.jpg');}
+    &:nth-of-type(2){background-image: url('../img/wallpaperflare.com_wallpaper (2).jpg');}
+    &:nth-of-type(3){background-image: url('../img/wallpaperflare.com_wallpaper(1).jpg');}
+    &:nth-of-type(4){background-image: url('../img/wp4646735-romantic-anime-couple-hd-wallpapers.jpg');}
+    &:nth-of-type(5){background-image: url('../img/your-name.jpg');}
+    &:nth-of-type(6){background-image: url('../img/gobta_kun.jpg');}
+    &:nth-of-type(7){background-image: url('../img/demon-slayer.jpg');}
+    &:nth-of-type(8){background-image: url('../img/368196.jpg');}
+    &:nth-of-type(9){background-image: url('../img/368196.jpg');}
+  
+
+    &::before{
+        content: "";
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        z-index: 4;
+        top: 0;
+        left: 0;
+        border-right: 1px solid black;
+    }
+} */
+
+/* for the hidden images images hover effect*/
+/* 
+.antiwckid_animation_container img{
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+
+
+
+
+
+    &:nth-of-type(1){
+        top: 0%;
+        left: -5%;
+        width: 400px;
+        height: 200px;
+        transform: rotate(-30deg);
+        object-fit: cover;
+
+    }
+    &:nth-of-type(2){
+        top: 70%;
+        left: 75%;
+        transform: rotate(-30deg);
+        width: 400px;
+        height: 200px;
+    }
+
+}
+.antiwckid_animation_container img:hover{
+    opacity: 1;
+} */
+
+/*for the revealing text*/
+
+.antiwckid_info_text-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    color: white;
+    
+    
+}
+.antiwckid_info_text__effect {
+    position: relative;
+}
+.antiwckid_info_text__overlay {
+    display: block;
+    position: absolute;
+    height: 101%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 1;
+    transform-origin: center right;
+}
+
+.antiwckid_info_text-block p{
+font-size: 3em;
+white-space: nowrap;
+
+
+}
+.antiwckid_info_text-block p.red{
+    color: red;
+}
+
+
+
+/*For the parallax effect*/
+
+
+.antiwckid_parallax_section{
+    height: 250vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     padding-top: 10vh;
+     position: relative;
+     overflow-x: hidden;
+     
+}
+#antiwckid_parallax_effect_image_gallery{
+    width: 100%;
+    height: 200vh;
+    /* background: white; */
+    position: relative;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.antiwckid_parallax_effect_image_gallery-heading{
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 10vh 0 5vh 0;
+    color: white;
+    
+
+}
+.antiwckid_parallax_effect_image_gallery-subheading{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+.antiwckid_parallax_effect_image_gallery-img{
+    position: absolute;
+    border-radius: 20px;
+    background-position:center ;
+    background-size: cover;
+    transform: translate(-50%,0%);
+
+
+    &:nth-of-type(1){
+        width: 25vw;
+        height: 25vh;
+        top: 5%;
+        left: 50%;
+        background-image: url(ArtWorks/alan_wake.jpg);
+        }
+    &:nth-of-type(2){
+        width: 25vw;
+        height: 25vh;
+        top: 15%;
+        left: 35%;
+        background-image: url(ArtWorks/corporate_sucks.jpg);
+        }
+    &:nth-of-type(3){
+        width: 15vw;
+        height: 25vh;
+        top: 20%;
+        right: 20%;
+        background-image: url(ArtWorks/death_note.jpg);
+        }
+    &:nth-of-type(4){
+        width: 25vw;
+        height: 20vw;
+        top: 35%;
+        left: 15%;
+        background-image: url(ArtWorks/i_dont_want_to_wake_up.jpg);
+        }
+    &:nth-of-type(5){
+        width: 25vw;
+        height: 20vw;
+        top: 39%;
+        left: 50%;
+        background-image: url(ArtWorks/kanye_west.jpg);
+        }
+    &:nth-of-type(6){
+        width: 18vw;
+        height: 15vw;
+        top: 10%;
+        right: -5%;
+        background-image: url(ArtWorks/real-eyes_real-lies.jpg);
+        }
+    &:nth-of-type(7){
+        width: 18vw;
+        height: 15vw;
+        top: 40%;
+        right: -8%;
+        background-image: url(ArtWorks/sickboy.jpg);
+        }
+    &:nth-of-type(8){
+        width: 15vw;
+        height: 25vh;
+        top: 80%;
+        right: 20%;
+        background-image: url(ArtWorks/svdden_death.jpg);
+        }
+    &:nth-of-type(9){
+        width: 25vw;
+        height: 25vh;
+        top: 70%;
+        left: 25%;
+        background-image: url(ArtWorks/utopia.jpg);
+        }
+    &:nth-of-type(10){
+        width: 18vw;
+        height: 15vw;
+        top: 60%;
+        right: 8%;
+        background-image: url(ArtWorks/void.jpg);
+        }
+}
+
+.antiwckid_parallax_effect_image_gallery-img:hover #buy_artwork_parallax{
+    opacity: 1;
+}
+
+#buy_artwork_parallax{
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.6);
+    color: red;
+    position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50% -50%);
+    padding: .5rem;
+    border-radius: 20px;
+    width: 60%;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+#main-2{
+    width: 100%;
+    overflow-x: hidden;
+    background: black;
+    position: relative;
+
+}
+
+#main-2{
+    h1{
+        width: 40%;
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,0);
+        text-align: justify;
+
+    }
+}
+
+#home{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+canvas{
+    max-width: 100vw;
+    max-height: 500vh;
+}
+
+
+.project-area{
+    padding: 4rem 10rem;
+    background: #000;
+  }
+.project-area .button-group button{
+        background: transparent;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130px;
+        color: white;
+  }
+
+   .project-area .button-group button+button{
+    padding-left: 3rem;
+  }
+  .project-area .grid .our-project > title h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+}
+button:focus,
+button:active,
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.project-area .grid .our-project .img img:hover{
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.title-h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 40px;
+    color: white;
+}
+
+.our-project .img img{
+    height: 400px;
+    position: relative;
+    margin: 5vh 0;
+    border: 1px red;
+
+}
+
+
+
+.our-project{
+    /* border:2px solid red; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.our-project:hover #buy_artwork{
+    opacity: 1;
+}
+
+#buy_artwork{
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.6);
+    color: red;
+    position: absolute;
+    bottom: 9%;
+    /* left: 12.5%; */
+    padding: .5rem;
+    border-radius: 20px;
+    width: 60%;
+    font-size: 1.5rem;
+    opacity: 0;
+    
+}
+
+
+
+/* -------------------------------------------------------------cta-------------------------------------------------------------- */
+
+
+.wckid_cta_container{
+    width: 100%;
+    padding: 1vh 0vw;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#wckid_cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 4rem;
+    width: 75vw;
+    border-radius: 1rem;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.wckid_cta-content p{
+   
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0e0e0e;
+    margin-top: 2vh;
+}
+
+.wckid_cta-content h3{
+  
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.829);
+}
+
+
+.wckid_cta-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+
+}
+.wckid_cta-button button{
+    width: 189.14px;
+height: 59.4px;
+
+border-radius: 40px;
+outline: none;
+border: none;
+background: #000;
+color: #ffffff;
+font-family: var(--font-family);
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+cursor: pointer;
+min-width: 150px;
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+}
+
+
+@media screen and (max-width:650px){
+    #wckid_cta{
+        flex-direction: column;
+    }
+    .wckid_cta-button{
+        margin: 2rem 0 0;
+    }
+}
+@media screen and (max-width:550px){
+    #wckid_cta{
+      margin: 4rem 2rem;
+    }
+    .wckid_cta-content h3{
+     font-size: 18px;
+     line-height: 32px;
+    }
+    .wckid_cta-button button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+

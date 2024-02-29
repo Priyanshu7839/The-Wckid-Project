@@ -1,0 +1,609 @@
+@media (max-width:480px) {
+    body {
+        background: #000;
+    }
+
+    /* 
+    #logo{
+        height: 15vh;
+    } */
+    #logo img {
+        height: 50vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 30px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 3vh;
+        font-size: 35px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -10vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 4vh;
+        font-size: 35px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -1.5vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 35px;
+        margin-top: -1.5vh;
+
+
+
+    }
+
+    #canvas video.canvas-video {
+        height: 50vh;
+        width: 70vw;
+
+    }
+
+    #canvas .canvas-text img.text-image {
+        margin-top: 12vh;
+
+    }
+
+    #artwork .artwork-image {
+        width: 70vw;
+        height: 50vh;
+        margin: 5vh 0;
+        border: 1px solid white;
+    }
+
+    #artwork .poster p {
+        width: 70vw;
+        height: 20vh;
+
+
+    }
+
+    #artwork .poster h1 {
+        font-size: 45px;
+        font-weight: 900;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:600px) {
+    body {
+        background: black;
+    }
+
+
+    /* #logo{
+        height: 20vh;
+    } */
+    #logo img {
+        height: 60vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 25px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 4vh;
+        font-size: 45px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -8vh;
+        overflow: hidden;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 5vh;
+        font-size: 45px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -2vh;
+        overflow: hidden;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 45px;
+        margin-top: -2vh;
+
+    }
+
+
+    #canvas video.canvas-video {
+        height: 50vh;
+        width: 100%;
+
+    }
+
+    #canvas .text-image {
+        margin-top: 10vh;
+    }
+
+    #canvas .canvas-text .text-content {
+        height: 20vh;
+        overflow-y: auto;
+
+    }
+
+    #artwork .poster img.artwork-image {
+        width: 100%;
+    }
+
+    #artwork .poster p {
+        width: 100%;
+        height: 20vh;
+    }
+
+    #artwork .poster h1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    #artwork .spotify-embed iframe {
+        margin-top: 5vh;
+
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:600px) and (max-width:700px) {
+    body {
+        background: black;
+    }
+
+
+    /* #logo{
+        height: 15vh;
+    } */
+    #logo img {
+        height: 50vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 50px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 5vh;
+        font-size: 50px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -5vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 6vh;
+        font-size: 50px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -2vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 50px;
+        margin-top: -2.4vh;
+    }
+
+    #canvas video.canvas-video {
+        height: 50vh;
+        width: 70vw;
+
+    }
+
+
+    #artwork .poster img.artwork-image {
+        width: 65vw;
+    }
+
+    #artwork .poster p {
+        width: 65vw;
+        height: 20vh;
+    }
+
+    #artwork .poster h1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    #artwork .spotify-embed iframe {
+        margin-top: 5vh;
+
+    }
+
+
+
+}
+
+@media only screen and (min-width:701px) and (max-width:800px) {
+    body {
+        background: black;
+    }
+
+
+    /* #logo{
+        height: 15vh;
+    } */
+    #logo img {
+        height: 60vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 50px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 5vh;
+        font-size: 55px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -3vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 6vh;
+        font-size: 55px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -2vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 55px;
+        margin-top: -2vh;
+    }
+
+    #canvas video.canvas-video {
+        height: 63vh;
+        width: 70vw;
+
+    }
+
+    #canvas p {
+        font-size: 10px;
+    }
+
+
+    #artwork .poster img.artwork-image {
+        width: 100%;
+    }
+
+    #artwork .poster p {
+        width: 100%;
+        height: 20vh;
+    }
+
+    #artwork .poster h1 {
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    #artwork .poster p {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    #artwork .spotify-embed iframe {
+        margin-top: 5vh;
+
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:801px) and (max-width:900px) {
+    body {
+        background: black;
+    }
+
+    /* 
+    #logo{
+        height: 15vh;
+    } */
+    #logo img {
+        height: 70vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 50px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 11vh;
+        font-size: 60px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -7vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 11vh;
+        font-size: 60px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -7.5vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 60px;
+        margin-top: -7.5vh;
+
+    }
+
+    #canvas video.canvas-video {
+        height: 70vh;
+        width: 100vw;
+
+    }
+
+    #canvas p {
+        font-size: 12px;
+    }
+
+    #artwork .poster img.artwork-image {
+        width: 100%;
+    }
+
+    #artwork .poster p {
+        width: 100%;
+        height: 20vh;
+        font-size: 12px;
+    }
+
+    #artwork .poster h1 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    #artwork .spotify-embed iframe {
+        margin-top: 5vh;
+
+    }
+
+
+}
+
+@media only screen and (min-width:901px) and (max-width:1000px) {
+    body {
+        background: black;
+    }
+
+    /* 
+    #logo{
+        height: 15vh;
+    } */
+    #logo img {
+        height: 85vh;
+        width: 70vw;
+    }
+
+    #outline-text {
+        margin-right: 50px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 5.5vh;
+        font-size: 70px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -4vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 6vh;
+        font-size: 70px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -3vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 70px;
+        margin-top: -3vh;
+
+    }
+
+    #canvas video.canvas-video {
+        height: 70vh;
+        width: 100vw;
+
+    }
+
+    #canvas p {
+        font-size: 12px;
+    }
+
+
+    #artwork .poster img.artwork-image {
+        width: 100%;
+    }
+
+    #artwork .poster p {
+        width: 100%;
+        height: 20vh;
+        font-size: 12px;
+    }
+
+    #artwork .poster h1 {
+        font-size: 42px;
+        font-weight: 900;
+    }
+
+    #artwork .spotify-embed iframe {
+        margin-top: 5vh;
+
+    }
+
+
+}
+
+@media only screen and (min-width:1001px) and (max-width:1100px) {
+    /* body{
+      background: black;
+    } */
+
+
+    /* #logo{
+        height: 15vh;
+    }
+    #logo img{
+        height: 85vh;
+        width: 70vw;
+    } */
+    /* #outline-text{
+        margin-right: 50px;
+    } */
+
+    #outline-text .outline-text-1 {
+
+        height: 6vh;
+        font-size: 75px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -2vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 7vh;
+        font-size: 75px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -3vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 75px;
+        margin-top: -3vh;
+
+    }
+
+    /* #canvas video.canvas-video{
+        height: 70vh;
+        width: 100vw;
+       
+    } */
+
+
+    /* #artwork .poster img.artwork-image{
+        width: 100%;
+    } */
+    #artwork .poster p {
+        font-size: 12px;
+    }
+
+
+    #canvas p {
+        font-size: 12px;
+    }
+
+    #artwork .poster h1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    /* #artwork .spotify-embed iframe{
+        margin-top: 5vh;
+        
+    } */
+
+
+}
+
+
+@media only screen and (min-width:1101px) and (max-width:1200px) {
+    #artwork .poster h1 {
+        font-size: 56px;
+        font-weight: 900;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 6vh;
+        font-size: 80px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -3vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 7vh;
+        font-size: 80px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -3vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 80px;
+        margin-top: -3vh;
+
+    }
+
+    #canvas p {
+        font-size: 14px;
+    }
+
+    #artwork p {
+        font-size: 12px;
+    }
+
+    #artwork .poster h1 {
+        font-size: 40px;
+    }
+}

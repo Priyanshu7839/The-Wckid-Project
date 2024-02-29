@@ -1,0 +1,78 @@
+.btn-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  /* position: relative;
+  bottom: 32vh; */
+  z-index: 2;
+  /* background: red; */
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+
+
+
+.buy-btn {
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  width: 15vw;
+  height: 70%;
+  color: red;
+  white-space: nowrap;
+  font-family: BebasNeue;
+}
+
+
+.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: red;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buy-btn:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+.label-2 a {
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+
+.label-2 {
+  display: none;
+  z-index: 9;
+  text-transform: capitalize;
+  color: black;
+}
+
+.buy-btn:hover .label-2 {
+  display: block;
+}
+
+.buy-btn:hover .label-1 {
+  display: none;
+
+}
+
+.buy-btn:active {
+  transform: scale(0.97);
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'DRuk';
+    src: url('Fonts/FontsFree-Net-Druk-Wide-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Akira';
+    src: url('Fonts/Akira Expanded Demo.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'Molend';
+    src: url('Fonts/MolendRegular-MVD6p.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('Fonts/BebasNeueBold-7B9LE.ttf') format('truetype');
+}
