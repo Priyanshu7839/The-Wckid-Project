@@ -24,6 +24,10 @@
         font-size: 15px;
     }
 
+    .sample-song {
+        padding: 2rem 1rem;
+    }
+
 
     .mutiny-para-2 h1 {
         font-size: 15px;
@@ -79,6 +83,9 @@
         width: 40vh;
     }
 
+    .sample-song {
+        padding: 2rem 1rem;
+    }
 
     .mutiny-para-2 h1 {
         font-size: 18px;
@@ -99,6 +106,8 @@
     .wckid-exclusive {
         right: -3%;
     }
+
+
 
 }
 
@@ -124,7 +133,12 @@
     }
 
     .mutiny-para-2 h1 {
+
         font-size: 20px;
+    }
+
+    .sample-song {
+        padding: 2rem 1.5rem;
     }
 
     .mutiny-para-2 li.title {
