@@ -138,6 +138,7 @@
     cursor: pointer;
     padding: .5rem 1rem;
     font-family: BebasNeue;
+    white-space: nowrap;
 
 }
 

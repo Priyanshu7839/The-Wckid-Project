@@ -1,12 +1,97 @@
-@media (max-width:480px) {
+@media only screen and (max-width:340px) {
+    #outline-text {
+        margin-right: 30px;
+    }
+
+    #outline-text .outline-text-1 {
+
+        height: 2vh;
+        font-size: 20px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -10vh;
+    }
+
+    #outline-text .outline-text-2 {
+
+        height: 2.5vh;
+        font-size: 20px;
+        -webkit-text-stroke: 1px white;
+        margin-top: -1vh;
+
+
+    }
+
+    #outline-text .outline-text-3 {
+        font-size: 20px;
+        margin-top: -1vh;
+
+
+
+    }
+
+    #canvas video.canvas-video {
+        height: 50vh;
+        width: 70vw;
+
+    }
+
+    #artwork .poster p {
+        width: 50vw;
+        height: 20vh;
+        font-size: 10px;
+
+
+    }
+
+    #artwork .poster h1 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+
+    #artwork .artwork-image {
+        width: 50vw;
+        height: 50vh;
+        margin: 5vh 0;
+
+    }
+
+    #canvas video.canvas-video {
+        height: 50vh;
+        width: 60vw;
+
+    }
+
+    #canvas p {
+        font-size: 10px;
+    }
+
+    #canvas .canvas-text img.text-image {
+        margin-top: 12vh;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:341px) and (max-width:480px) {
     body {
         background: #000;
     }
 
-    /* 
-    #logo{
-        height: 15vh;
-    } */
+
+    #logo {
+        margin-top: -8vh;
+    }
+
     #logo img {
         height: 50vh;
         width: 70vw;

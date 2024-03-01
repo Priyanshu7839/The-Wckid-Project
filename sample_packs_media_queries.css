@@ -1,7 +1,205 @@
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:340px) {
     .mutiny-outlined-text h1.outline {
-        font-size: 35px;
+        font-size: 20px;
 
+    }
+
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 1.5vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 2vh;
+    }
+
+    .mutiny-hands {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .sample-song h1 {
+        font-size: 15px;
+    }
+
+
+    .mutiny-para-2 h1 {
+        font-size: 15px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 15px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 10px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:341px) and (max-width:480px) {
+    .mutiny-outlined-text h1.outline {
+        font-size: 25px;
+
+    }
+
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 2vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 2.5vh;
+    }
+
+    .mutiny-hands {
+        height: 40vh;
+        width: 40vh;
+    }
+
+
+    .mutiny-para-2 h1 {
+        font-size: 18px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 18px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:600px) {
+    .mutiny-outlined-text h1.outline {
+        font-size: 30px;
+
+    }
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 2vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 2.5vh;
+    }
+
+    .mutiny-hands {
+        height: 45vh;
+        width: 45vh;
+    }
+
+    .mutiny-para-2 h1 {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:700px) {
+    .mutiny-outlined-text h1.outline {
+        font-size: 30px;
+
+    }
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 2vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 2.5vh;
+    }
+
+    .mutiny-hands {
+        height: 45vh;
+        width: 45vh;
+    }
+
+    .mutiny-para-2 h1 {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:800px) {
+    .mutiny-outlined-text h1.outline {
+        font-size: 40px;
+
+    }
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 2vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 2.5vh;
     }
 
     .mutiny-hands {
@@ -9,53 +207,121 @@
         width: 50vh;
     }
 
-}
-
-@media only screen and (min-width:481px) and (max-width:600px) {
-    .mutiny-outlined-text h1.outline {
-        font-size: 45px;
-
+    .mutiny-para-2 h1 {
+        font-size: 20px;
     }
-}
 
-@media only screen and (min-width:601px) and (max-width:700px) {
-    .mutiny-outlined-text h1.outline {
-        font-size: 50px;
-
+    .mutiny-para-2 li.title {
+        font-size: 20px;
     }
-}
 
-@media only screen and (min-width:701px) and (max-width:800px) {
-    .mutiny-outlined-text h1.outline {
-        font-size: 55px;
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
 
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
     }
 }
 
 @media only screen and (min-width:801px) and (max-width:900px) {
     .mutiny-outlined-text h1.outline {
-        font-size: 60px;
+        font-size: 50px;
 
+    }
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 3vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 3.5vh;
+    }
+
+    .mutiny-hands {
+        height: 55vh;
+        width: 55vh;
+    }
+
+    .mutiny-para-2 h1 {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width:1000px) {
+    .mutiny-outlined-text h1.outline {
+        font-size: 50px;
+
+    }
+
+    .mutiny-outlined-text .stroked {
+        margin-bottom: -.2rem;
+        height: 3vh;
+    }
+
+    .mutiny-outlined-text .stroked+.stroked {
+        margin-bottom: -.2rem;
+        height: 3.5vh;
+    }
+
+    .mutiny-hands {
+        height: 55vh;
+        width: 55vh;
+    }
+
+    .mutiny-para-2 h1 {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li.title {
+        font-size: 20px;
+    }
+
+    .mutiny-para-2 li {
+        font-size: 12px;
+    }
+
+    .sample-audio {
+        padding: 4rem .5rem;
+    }
+
+    .wckid-exclusive {
+        right: -3%;
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:1100px) {
     .mutiny-outlined-text h1.outline {
         font-size: 70px;
 
     }
 }
 
-@media only screen and (min-width:1001px) and (max-width:1100px) {
-    .mutiny-outlined-text h1.outline {
-        font-size: 75px;
-
-    }
-}
-
 @media only screen and (min-width:1101px) and (max-width:1200px) {
     .mutiny-outlined-text h1.outline {
-        font-size: 80px;
+        font-size: 75px;
 
     }
 }
